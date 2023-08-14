@@ -1,24 +1,33 @@
-# Pacman
-This projects aim is to create Pacman using C++ and SDL library.
 
-## Compile
-In order to compile the project, you have to:
-1. Build the solution for the first time, this should create Debug folder for you.
-2. Go to SDL2-2.0.5\lib\x86 and copy SDL2.dll to the Debug folder.
-3. Do the same thing for zlib1.dll, SDL2_ttf.dll and libfreetype-6.dll in SDL2_ttf-2.0.14\lib\x86.
-## License
-```
-Copyright 2017 Jakub Bizewski
+# PacMan
 
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
+Game PacMan sử dụng ngôn ngữ C++ và thư viện SDL
 
-       http://www.apache.org/licenses/LICENSE-2.0
+Cách mở: 
+1.Trước tiên ,Build Solution và sẽ tạo ra folder Debug 
+2.Vào thư mục SDL2-2.0.5\lib\x86 và copy file SDL2.dll vào folder Debug 
+3.Làm tương tự với zlib1.dll, SDL2_ttf.dll và libfreetype-6.dll trong SDL2_ttf-2.0.14\lib\x86.
 
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
-```
+Các tính năng mới:
+(+) Sửa lại lỗi map
+(+) Chỉnh lại tốc độ di chuyển của PacMan và quái cho phù hợp
+
+
+
+
+Điều khiển:
+     
+     (+)   Mũi tên trái : di chuyển sang bên trái
+     
+     (+)   Mũi tên phải : di chuyển sang bên phải
+     
+     (+)   Mũi tên xuống : di chuyển xuống dưới
+
+     (+)   Mũi tên lên : di chuyển lên trên
+
+
+
+     
+     
+     
+     
